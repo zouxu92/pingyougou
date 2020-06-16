@@ -133,3 +133,66 @@
 	/*border-radius: 左上角 右上角 右下角 左下角； */
 	border-radius: 7px 7px 7px 0;
 }
+/*nav start*/
+.nav {
+	height: 45px;
+	border-bottom: 2px solid #b1191a;
+}
+.dorpdown {
+	width: 209px;
+	height: 45px;
+}
+.dorpdown .dt {
+	height: 100%;
+	width: 100%;
+	background-color: #b1191a;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+}
+.dorpdown .dd {
+	height: 465px;
+	background-color: #c81623;
+	margin-top: 2px;
+}
+.menu_item {
+	height: 31px;
+	line-height: 31px;
+	margin-left: 1px;
+	padding: 0 10px;
+}
+.menu_item:hover {
+	background-color: #fff;
+}
+/*鼠标经过li 里面的 a变颜色*/
+.menu_item:hover a {
+	color: #c81623;
+}
+.menu_item a {
+	font-size: 14px;
+	color: #fff;
+}
+.menu_item i{
+	float: right;
+	font-family: 'icomoon';
+	font-size: 18px;
+	color: #fff;
+}
+.navitems {
+	margin-left: 10px;
+}
+.navitems li {
+	float: left;
+}
+.navitems li a {
+	 display: block;
+	 height: 45px;
+	 line-height: 45px;
+	 padding: 0 25px;
+	 font-size: 16px;
+}
+/*footer 部分*/
+.footer {
+	height: 450px;
+}
