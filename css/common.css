@@ -52,7 +52,6 @@
 .header {
 	position: relative;
 	height: 105px;
-	background-color: pink;
 }
 .logo {
 	position: absolute;
@@ -120,4 +119,17 @@
 .arrow{
 	font-family: 'icomoon';
 	margin-left: 5px;
+}
+.count {
+	position: absolute;
+	top: -5px;
+	/*应该是左侧对齐，数字才能往右撑开  righ： 18px；*/
+	left: 100px;
+	background-color: #e60012;
+	height: 14px;
+	padding: 0 3px;
+	line-height: 14px;
+	color: #fff;
+	/*border-radius: 左上角 右上角 右下角 左下角； */
+	border-radius: 7px 7px 7px 0;
 }
