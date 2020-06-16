@@ -1,0 +1,56 @@
+/*首页的样式*/
+.main {
+	width: 980px;
+	height: 455px;
+	margin-left: 219px;
+	margin-top: 10px;
+}
+.focus {
+	position: relative;
+	width: 720px;
+	height: 455px;
+	background-color: purple;
+}
+.arrow-l,
+.arrow-r {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 24px;
+	height: 40px;
+	background: rgba(0, 0, 0, .3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-family: 'icomoon';
+	font-size: 18px;
+
+}
+.arrow-r {
+	right: 0;
+}
+.circle {
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+}
+.circle li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	/*background: rgba(0, 0, 0, .4);*/
+	border: 1px solid rgba(255, 255, 255, .6);
+	margin:0 5px;
+	border-radius: 50%;
+	/*鼠标经过显示小手*/
+	cursor: pointer;
+}
+.current {
+	background-color: #fff;
+	box-shadow: 
+}
+.newflash {
+	width: 250px;
+	height: 455px;
+	background-color: skyblue;
+}
