@@ -163,5 +163,49 @@
 .recom-bd li.last {
 	border-right: 0;
 }
+/*楼层区*/
+.box-hd {
+	height: 30px;
+	/*background-color: gold;*/
+	border-bottom: 2px solid #c81623;
+	margin-top: 25px;
+}
+.box-hd h3 {
+	float: left;
+	font-size: 18px;
+	color: #c81623;
+}
+.tab-list {
+	float: right;
+	line-height: 30px;	
+}
+.tab-list li {
+	float: left;
+}
+.tab-list li a {
+	margin:0 15px;
+}
+.box-bd {
+	height: 361px;
+	background-color: gold;
+}
+.w209 {
+	width: 209px;
+}
+.w329 {
+	width: 329px;
+}
+.w219 {
+	width: 219px;
+	border-right: 1px solid #ccc;
+}
+.w220 {
+	width: 220px;
+	border-right: 1px solid #ccc;
 
+}
+.tab-con li {
+	float: left;
+	height: 360px;
+}
 
