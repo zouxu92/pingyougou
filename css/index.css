@@ -240,6 +240,7 @@
 	position: fixed;
 	top: 100px;
 	left: 50%;
+	width: 66px;
 	margin-left: -676px;
 	background-color: #fff;
 }
