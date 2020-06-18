@@ -224,6 +224,17 @@
 	margin-left: 12px;
 	text-align: center;
 }
+.box-bd li {
+	overflow: hidden;
+}
+.box-bd img {
+	/*过渡写到本身上，谁做动画，给谁加*/
+	transition: all .3s;
+}
+/*鼠标经过图片，往右走8px;*/
+.box-bd img:hover {
+	margin-left: 8px;
+}
 /*电梯导航*/
 .fixedtool {
 	position: fixed;
