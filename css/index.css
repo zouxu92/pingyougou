@@ -187,10 +187,11 @@
 }
 .box-bd {
 	height: 361px;
-	background-color: gold;
+	/*background-color: gold;*/
 }
 .w209 {
 	width: 209px;
+	background-color: #f9f9f9;
 }
 .w329 {
 	width: 329px;
@@ -207,5 +208,40 @@
 .tab-con li {
 	float: left;
 	height: 360px;
+}
+.tab-con-item {
+	border-bottom: 1px solid #ccc;
+}
+.tab-con-list {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.tab-con-list li {
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 12px;
+	text-align: center;
+}
+/*电梯导航*/
+.fixedtool {
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: -676px;
+	background-color: #fff;
+}
+.fixedtool li {
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+.fixedtool .current {
+	background-color: #c81623;
+	color: #fff;
 }
 
