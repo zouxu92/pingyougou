@@ -123,6 +123,13 @@
 	width: 46px;
 	height: 36px;
 	border: 1px solid #ccc;
+	/*动画过渡*/
+	transition: all .5;
+}
+/*表单获得焦点后，进行操作*/
+.page_skip input:focus {
+	width: 88px;
+	border: 1px solid skyblue;
 }
 .page_skip button {
 	width: 54px;
