@@ -64,6 +64,10 @@
 	color: #e12228;
 	height: 32px;
 }
+.summary a.current {
+	border: 1px solid #c81623;
+
+}
 .summary dl {
 	overflow: hidden;
 }
@@ -110,7 +114,173 @@
 	line-height: 22px;
 	color: #fff;
 }
-.summary_support dd {
+.summary_support dd,
+.summary_stock dd {
 	line-height: 36px;
+	font-family: 'icomoon';
 }
-
+.choose_color a {
+	display: inline-block;
+	width: 80px;
+	height: 41px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 41px;
+	background-color: #f7f7f7;
+	font-weight: 700;
+}
+.choose_version {
+	margin:10px 0;
+}
+.choose_version a ,
+.choose_type a {
+	display: inline-block;
+	height: 32px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 32px;
+	background-color: #f7f7f7;
+	font-weight: 700;
+	padding: 0 12px;
+}
+.choose_btns {
+	margin-top: 20px;
+}
+.choose_amount {
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 46px;
+}
+.choose_amount input {
+	width: 33px;
+	height: 44px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.choose_amount a {
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 22px;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	line-height: 22px;
+	text-align: center;
+}
+.add {
+	top:0;
+}
+.reduce {
+	bottom: 0;
+	cursor:not-allowed;
+}
+.addshopcar {
+	float: left;
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.produce_detail {
+	margin-bottom: 50px;
+}
+.aside {
+	width: 208px;
+	border: 1px solid #ccc;
+}
+.tab_list {
+	overflow: hidden;
+	height: 34px;
+}
+.tab_list li{
+	float: left;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #f1f1f1;
+}
+.first_tab {
+	width: 104px;
+}
+.second_tab {
+	width: 103px;
+}
+.tab_list .current {
+	background-color: #fff;
+	color: red;
+	border-bottom: 0;
+}
+.tab_con {
+	padding: 0 10px;
+}
+.tab_con li {
+	border-bottom: 1px solid #ccc;
+}
+.tab_con li h5 {
+	/**
+	思路：
+	1.设置inline-block属相
+	2.强制不换行
+	3.固定高度
+	4.隐藏超出部分
+	5.显示“……”
+  */
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 400;
+}
+.aside_price {
+	margin: 10px 0;
+	font-weight: 700;
+}
+.as_addcar {
+	display: block;
+    width: 88px;
+    height: 26px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 26px;
+}
+.detail {
+	width: 978px;
+}
+.detail_tab_list {
+	height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.detail_tab_list .current {
+	background-color: #c81623;
+    color: #fff;
+}
+.detail_tab_list li {
+	float: left;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.item_info {
+	padding: 20px 0 0 20px;
+}
+.item_info li {
+	line-height: 22px;
+}
+.more {
+	float: right;
+    font-weight: 700;
+    font-family: 'icomoon';
+}
+.detail_tab_con {
+	margin-bottom: 50px;
+}
